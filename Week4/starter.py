@@ -45,14 +45,6 @@ def get_predictions(df,year,month):
 
 
 
-
-#writing the results as a parquet file:
-
-
-
-
-
-
 if __name__ == '__main__':
     categorical = ['PUlocationID', 'DOlocationID']
     year = sys.argv[1]
